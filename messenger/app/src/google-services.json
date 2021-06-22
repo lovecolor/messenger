@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614351555988",
+    "project_id": "foodapp-fc425",
+    "storage_bucket": "foodapp-fc425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614351555988:android:9351853717d617c7809381",
+        "android_client_info": {
+          "package_name": "com.example.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614351555988-u6eg1i1em7o1jv5ujc9b73c20do5v8st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJdJ7JsK-sBEESYoj72UmWuLtt482UQjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614351555988-u6eg1i1em7o1jv5ujc9b73c20do5v8st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

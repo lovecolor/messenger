@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BAN NEN CHON"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/title"
+
+        ></TextView>
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luu kim hoan"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/age"
+        android:layout_marginLeft="30dp"
+        ></TextView>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del co tuoi"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/name"
+        android:layout_marginRight="30dp"
+        ></TextView>
+    <TextView
+
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lido:abcdxyz"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/lido"
+        android:layout_marginRight="30dp"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dong y"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lido"
+        android:textSize="20dp"
+        android:paddingHorizontal="70dp"
+        android:id="@+id/agree"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Again"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lido"
+        android:textSize="20dp"
+        android:paddingHorizontal="70dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/agree"
+        android:textSize="20dp"
+        android:paddingHorizontal="70dp"></Button>
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

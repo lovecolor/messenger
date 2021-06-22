@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon_back"
+        android:id="@+id/icon_back"
+        android:layout_alignParentTop="true"></ImageView>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon_shop"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"></ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lemontea"
+        android:layout_below="@+id/icon_back"
+        android:id="@+id/background_of_restaurant"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/background_of_restaurant"
+        android:text="Trà Chanh Bụi Phố"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/name_of_restaurant"
+        android:textColor="@color/black"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_of_restaurant"
+        android:text="151 Đồng Kè"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/address_of_restaurant"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_of_restaurant"
+        android:text="Chưa mở cửa"
+        android:textColor="#DF5139"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/status_of_restaurant"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/status_of_restaurant"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Trà chanh truyền thống"
+
+                android:textSize="20dp"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="10.000đ"
+
+                android:textSize="20dp"
+
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Trà kim quất nha đam"
+
+                android:textSize="20dp"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="15.000đ"
+
+                android:textSize="20dp"
+
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Trà chanh đào nhiệt đới"
+
+                android:textSize="20dp"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="15.000đ"
+
+                android:textSize="20dp"
+
+                ></TextView>
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Trà chanh truyền thống"
+
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="10.000đ"
+
+            android:textSize="20dp"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

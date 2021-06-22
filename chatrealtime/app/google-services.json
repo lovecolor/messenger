@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "47530351620",
+    "firebase_url": "https://messageuser-c5bed-default-rtdb.firebaseio.com",
+    "project_id": "messageuser-c5bed",
+    "storage_bucket": "messageuser-c5bed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47530351620:android:4b8d88b91e0988cea76951",
+        "android_client_info": {
+          "package_name": "com.example.chatpeople"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47530351620-avkvabqh2cmfap8jolnd5kgvgo984dma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkBVwBDShTYNwQ0b94_p8M-ISbEXEdLS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47530351620-avkvabqh2cmfap8jolnd5kgvgo984dma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47530351620:android:cbf69b2899304649a76951",
+        "android_client_info": {
+          "package_name": "com.example.chatrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47530351620-avkvabqh2cmfap8jolnd5kgvgo984dma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkBVwBDShTYNwQ0b94_p8M-ISbEXEdLS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47530351620-avkvabqh2cmfap8jolnd5kgvgo984dma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

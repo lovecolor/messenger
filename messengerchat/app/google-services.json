@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710024241972",
+    "project_id": "boxchatapp-33998",
+    "storage_bucket": "boxchatapp-33998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710024241972:android:17707919c4aadefed7fb61",
+        "android_client_info": {
+          "package_name": "com.example.messengerchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710024241972-c5qsuhsnl0874rt7giec0sf5n77v43hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4lkICfPV_p26PFWaJ2mYU5OSuUjAlKVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710024241972-c5qsuhsnl0874rt7giec0sf5n77v43hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
